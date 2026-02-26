@@ -178,6 +178,12 @@ shutil.copy(
     "CHANGELOG.md",
 )
 
+# copy architecture doc
+shutil.copy(
+    "../../ARCHITECTURE.md",
+    "ARCHITECTURE.md",
+)
+
 intersphinx_mapping = {
     "sklearn": ("https://scikit-learn.org/stable/", None),
 }
